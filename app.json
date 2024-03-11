@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "PHCApp",
+    "slug": "PHCApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.alimughees.PHCApp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c141abe1-1129-4574-b8d4-92023e5f7378"
+      }
+    }
+  }
+}
